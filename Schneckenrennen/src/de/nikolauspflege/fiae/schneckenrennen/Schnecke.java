@@ -29,5 +29,13 @@ public abstract class Schnecke {
 	 */
 	public abstract void krieche();
 	
+	/**
+	 * Gibt den Namen der Schnecke zurück.
+	 * @return Name
+	 */
+	public String getName()
+	{
+		return name;
+	}
 
 }
