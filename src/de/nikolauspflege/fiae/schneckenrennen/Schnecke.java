@@ -9,12 +9,12 @@ package de.nikolauspflege.fiae.schneckenrennen;
  * @version 1.0
  */
 public abstract class Schnecke {
-	protected final String name; 	// der Name der Schnecke
-	protected final String rasse; // die Rasse der Schnecke
-	protected final double vMax;	// die Maximalgeschwindigkeit der Schnecke im Rennen
-	protected double rennStrecke = 0;		// die zurückgelegte Strecke im Rennen in mm
-	protected double gesamtStrecke = 0;    // die zurückgelegte strecke in allen Rennen
-	protected int rennZeit= 0;		// die Zeit im aktuellen Rennen
+	protected final String name; 		// der Name der Schnecke
+	protected final String rasse; 		// die Rasse der Schnecke
+	protected final double vMax;		// die Maximalgeschwindigkeit der Schnecke im Rennen
+	protected double rennStrecke = 0;	// die zurückgelegte Strecke im Rennen in mm
+	protected double gesamtStrecke = 0; // die zurückgelegte strecke in allen Rennen
+	protected int rennZeit= 0;			// die Zeit im aktuellen Rennen
 	protected int gesamtZeit =0 ;		// die Zeit in allen Rennen
 	
 	public Schnecke ( String derName, String dieRasse, double maxGeschchwindigkeit){
