@@ -1,5 +1,7 @@
 package de.nikolauspflege.fiae.schneckenrennen;
 
+import java.text.DecimalFormat;
+
 public class Rennschnecke extends Schnecke {
 
 	public Rennschnecke(String derName, String dieRasse, double maxGeschchwindigkeit) {
@@ -13,7 +15,10 @@ public class Rennschnecke extends Schnecke {
 	}
 	
 	public String toString() {
-		return "Name der Schnecke ist: " + name + " und sie ist insgesamt " + gesamtStrecke +"mm gekrochen";
+		 DecimalFormat f = new DecimalFormat("#0.00");
+		return "Name der Schnecke ist: " + name + " und sie ist insgesamt " +  f.format(gesamtStrecke) + "mm gekrochen";
 	}
+	
+	
 
 }

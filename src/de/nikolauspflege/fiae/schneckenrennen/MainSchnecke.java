@@ -13,6 +13,8 @@ public class MainSchnecke {
 		r1.krieche();
 		System.out.println(r1.toString());
 		
+	
+		
 	}
 
 }
