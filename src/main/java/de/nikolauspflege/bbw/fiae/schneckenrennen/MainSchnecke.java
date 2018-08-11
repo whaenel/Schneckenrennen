@@ -1,4 +1,4 @@
-package de.nikolauspflege.fiae.schneckenrennen;
+package de.nikolauspflege.bbw.fiae.schneckenrennen;
 
 public class MainSchnecke {
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package de.nikolauspflege.fiae.schneckenrennen;
+package de.nikolauspflege.bbw.fiae.schneckenrennen;
 
 /**
  * Prototyp einer Rennschnecke
